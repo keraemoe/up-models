@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;700&display=swap");
+
+main {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 200px;
+}
+#form-container {
+  width: 80%;
+  background: rgba(217, 217, 217, 0.15);
+  backdrop-filter: blur(10px);
+  border-radius: 50px;
+  padding-bottom: 100px;
+}
+
+.form-title {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 200px;
+  line-height: 200px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1450px) {
+  .form-title {
+    font-size: 100px;
+  }
+}
+
+.filling-content {
+  display: flex;
+  justify-content: space-around;
+}
+.left-filling {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+
+.left-filling input {
+  border: 1px solid #ffffff;
+  border-radius: 3px;
+  background: rgba(217, 217, 217, 0.15);
+  backdrop-filter: blur(10px);
+  min-width: 440px;
+  min-height: 40px;
+}
+
+.right-filling input {
+  border: 1px solid #ffffff;
+  border-radius: 3px;
+  background: rgba(217, 217, 217, 0.15);
+  backdrop-filter: blur(10px);
+}
+
+.up-inputs {
+  margin-bottom: 17px;
+}
+
+.right-filling .up-inputs {
+  display: flex;
+  gap: 20px;
+}
+
+.right-filling .up-inputs input {
+  max-width: 190px;
+  min-height: 40px;
+}
+
+.under-inputs {
+  display: flex;
+  gap: 20px;
+}
+
+.right-filling .under-inputs input {
+  max-width: 190px;
+  min-height: 40px;
+}
+
+.short-inputs {
+  display: flex;
+  gap: 19px;
+  margin-top: 17px;
+  margin-bottom: 17px;
+}
+
+.short-inputs #short-input {
+  width: 125px;
+  height: 40px;
+}
+
+#load-img {
+  border-radius: 5px;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #ffffff;
+  background: #000;
+  padding: 12px 97px;
+}
+
+#name {
+  width: 440px;
+}
+.load-file {
+  padding: 12px 97px;
+  background: #000000;
+  display: table;
+  color: #fff;
+  border-radius: 5px;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+@media screen and (max-width: 1444px) {
+  .filling-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  #form-container {
+    width: 700px;
+  }
+}
+
+@media screen and (max-width: 604px) {
+  #form-container {
+    width: 550px;
+  }
+}
+
+@media screen and (max-width: 489px) {
+  #form-container {
+    width: 430px;
+  }
+
+  .left-filling input {
+    min-width: 100px;
+  }
+
+  .up-inputs {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .under-inputs {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  #form-container {
+    width: 400px;
+  }
+}

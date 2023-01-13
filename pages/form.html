@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Up-models Form</title>
+    <link rel="stylesheet" href="../styles/form.css" />
+    <link rel="stylesheet" href="../styles/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <ul class="header-nav">
+          <li><a id="home-btn" href="../index.html"> Главная</a></li>
+          <li><a href="../pages/AboutUs.html">О нас</a></li>
+          <li><a href="../pages/Contact.html"> Контакты</a></li>
+          <li><a href="../pages/form.html"> Заполнить Анкету</a></li>
+        </ul>
+      </nav>
+
+      <div class="translate-nav">
+        <img src="../assets/translate-img.png" alt="" />
+      </div>
+      <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+          <span></span>
+        </label>
+        <ul class="menu__box">
+          <li><a class="menu__item" href="../index.html">Главная</a></li>
+          <li><a class="menu__item" href="../pages/AboutUs.html">О нас</a></li>
+          <li>
+            <a class="menu__item" href="../pages/Contact.html">Контакты</a>
+          </li>
+          <li>
+            <a class="menu__item" href="../pages/form.html">
+              Заполнить Анкету</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <section id="form-container">
+        <h1 class="form-title">АНКЕТА</h1>
+
+        <div class="filling-content">
+          <div class="left-filling">
+            <input
+              name="first_name"
+              placeholder="Имя"
+              class="form-control"
+              type="text"
+            />
+            <input
+              name="last_name"
+              placeholder="Фамилия"
+              class="form-control"
+              type="text"
+            />
+            <input
+              name="Date of Birth"
+              placeholder="Дата Рождения"
+              class="form-control"
+              type="text"
+            />
+            <input
+              name="telephone"
+              placeholder="Телефон"
+              class="form-control"
+              type="number"
+            />
+            <input
+              name="mail"
+              placeholder="Почта"
+              class="form-control"
+              type="email"
+            />
+            <input
+              name="instagram"
+              placeholder="Instagram"
+              class="form-control"
+              type="text"
+            />
+            <input
+              name="city"
+              placeholder="Город"
+              class="form-control"
+              type="text"
+            />
+            <input
+              name="Skill"
+              placeholder="Опыт"
+              class="form-control"
+              type="text"
+            />
+            <input
+              name="language"
+              placeholder="Знания языка"
+              class="form-control"
+              type="text"
+            />
+            <input
+              name="Category"
+              placeholder="Категория"
+              class="form-control"
+              type="text"
+            />
+          </div>
+
+          <div class="right-filling">
+            <div class="up-inputs">
+              <input
+                name="city"
+                placeholder="Цвет глаз"
+                class="form-control"
+                type="text"
+                id="short-input"
+              />
+              <input
+                name="city"
+                placeholder="Цвет волос"
+                class="form-control"
+                type="text"
+                id="short-input"
+              />
+            </div>
+            <div class="under-inputs">
+              <input
+                name="city"
+                placeholder="Размер одежды"
+                class="form-control"
+                type="text"
+                id="short-input"
+              />
+              <input
+                name="city"
+                placeholder="Размер обуви"
+                class="form-control"
+                type="text"
+                id="short-input"
+              />
+            </div>
+            <div class="short-inputs">
+              <input
+                name="city"
+                placeholder="Рост"
+                class="form-control"
+                type="text"
+                id="short-input"
+              />
+              <input
+                name="city"
+                placeholder="Вес"
+                class="form-control"
+                type="text"
+                id="short-input"
+              />
+            </div>
+            <label class="load-file">
+              Загрузить файл
+              <input type="file" size="60" />
+            </label>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
